@@ -1,7 +1,12 @@
 
 public class RecFib {
 
-	
+	/**
+	 * This function recursively returns the input of the users desired Fibonacci number to find.
+	 * @author Matt LeRoy
+	 * @param n the number given to the Fibonacci finder
+	 * @return the desired Fibonacci number given as a param
+	 */
 	public static int nthOfFib(int n) {
 		
 		if (n <= 0) { 			// Catch 0's and negatives immediately
@@ -16,7 +21,12 @@ public class RecFib {
 	}
 	
 	
-	
+	/**
+	 * Entry point for nthOfFib() function.
+	 * @author Matt LeRoy
+	 * @param args CMD args, unused.
+	 * @return Print to console of desired Fibonacci number.
+	 */
 	public static void main(String[] args) {
 		
 		int n = 10;
